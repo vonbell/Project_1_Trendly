@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 40px 80px 1fr;
+    height: 100vh;
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c9.jpg');
+}
+
+nav {
+    height: 80px;
+}
+
+nav > div {
+    font-size: 40px;
+    font-weight: 520;
+    letter-spacing: -4px;
+    margin: 40px auto 0 auto;
+    color: oldlace;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.4px;
+}
+
+#sub-title {
+    margin: 1px auto 40px auto;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    color: oldlace;
+    justify-content: center;
+    font-style: italic;
+}
+
+.center {
+    display: flex;
+}
+
+#button {
+    background-color: rgba(54, 20, 54, 0.239);
+    color: whitesmoke;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border-radius: 100%;
+    border: 1px solid floralwhite;
+    font-size: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+    padding: 24px;
+}
+
+#button:hover {
+    background-color: rgba(185, 135, 120, 0.6);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gif {
+    margin: 30px auto auto auto;
+}
